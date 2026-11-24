@@ -1,0 +1,13 @@
+test,expected,actual,passed
+Valid baseline,PASS,PASS,True
+Valid low savings,PASS,PASS,True
+Valid at cash-flow limit,PASS,PASS,True
+No debt valid,PASS,PASS,True
+Unrealistic savings,FAIL,FAIL,True
+Wrong expenses,FAIL,FAIL,True
+Wrong debt total,FAIL,FAIL,True
+Invalid savings amount,FAIL,FAIL,True
+Negative savings,FAIL,FAIL,True
+Invalid income,FAIL,FAIL,True
+Missing expense total,WARNING,WARNING,True
+Negative cash flow alone,WARNING,WARNING,True
